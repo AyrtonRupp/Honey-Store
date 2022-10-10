@@ -150,3 +150,16 @@ footer {
 @media (max-width: 1000px) {
   .catalogo {
     top: -48px; } }
+
+@media (min-width: 1000px) {
+  .tarjeta > .card:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; } }
+
+@media (min-width: 1000px) {
+  .tarjeta > .card {
+    flex: 1 0 0%;
+    margin-bottom: 0; } }
+
+.tarjeta > .card {
+  margin-bottom: 0.75rem; }
