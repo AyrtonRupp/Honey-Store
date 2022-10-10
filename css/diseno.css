@@ -141,3 +141,10 @@ footer {
 
 .catalogo {
   top: 0; }
+
+@media (min-width: 1000px) {
+  .card-group > .card {
+    flex: 1 0 0%;
+    margin-bottom: 0; }
+  .catalogo {
+    top: -48px; } }
