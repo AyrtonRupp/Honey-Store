@@ -6,51 +6,21 @@
   margin: 0;
   padding: 0; }
 
+body {
+  background: var(--color-light);
+  background-image: linear-gradient(105deg, rgba(241, 245, 209, 0.4), #fcfaf7), url(https://images.pexels.com/photos/1310847/pexels-photo-1310847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 header {
   width: 100%;
-  background: #f0d01c;
   position: fixed;
   z-index: 2;
-  display: grid;
   grid-template-columns: 80px auto;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 15%;
-  top: -10px; }
-
-.burger {
-  display: none; }
-
-#check {
-  display: none; }
-
-.logo {
-  width: 100px;
-  margin-left: 20px; }
-
-.nav__bresponsive {
-  text-align: right;
-  box-sizing: border-box;
-  flex: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: end;
-  gap: 0 5px;
-  margin-right: 70px; }
-  .nav__bresponsive li {
-    display: inline;
-    flex-wrap: wrap;
-    padding: 0 00px; }
-    .nav__bresponsive li a {
-      color: orangered;
-      text-decoration: none;
-      text-transform: uppercase;
-      padding-left: 15px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      font-family: 'DynaPuff', cursive;
-      font-size: auto; }
-      .nav__bresponsive li a:hover {
-        color: darkgray; }
+  margin-bottom: 15%; }
 
 footer {
   width: 100%;
@@ -107,57 +77,6 @@ footer {
     color: orangered;
     font-family: 'DynaPuff', cursive;
     font-size: auto; }
-
-.carrusel {
-  width: 100%; }
-
-.carrusel__cont {
-  width: 100%;
-  height: 800px;
-  overflow: hidden; }
-
-.carrusel__item {
-  position: relative;
-  width: 100%;
-  height: 100%; }
-
-.carrusel__item__tarjeta {
-  width: 100%;
-  height: 100%; }
-
-.carrusel__item__flechas {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px; }
-  .carrusel__item__flechas a {
-    text-decoration: none;
-    color: #fff; }
-
-.flechad {
-  margin: 30px; }
-
-#carrusel__item-1 {
-  background-image: url(../assets/img_carr/nintendito.jpg);
-  background-size: 100%;
-  background-image: cover;
-  background-repeat: no-repeat; }
-
-#carrusel__item-2 {
-  background-image: url(../assets/img_carr/ps5.jpg);
-  background-size: 100%;
-  background-image: cover;
-  background-repeat: no-repeat; }
-
-#carrusel__item-3 {
-  background-image: url(../assets/img_carr/xone.jpg);
-  background-size: 130%;
-  background-image: cover;
-  background-repeat: no-repeat; }
 
 .menu__index {
   text-align: center;
@@ -216,92 +135,3 @@ footer {
 @media (min-width: 700px) {
   body {
     padding: 0 0em; } }
-
-@media only screen and (max-width: 768px) {
-  .carrusel {
-    height: 500px; }
-  .carrusel__item__flechas {
-    top: -100px; }
-  #carrusel__item-3 {
-    background-size: 117%; }
-  .burger {
-    font-size: 20px;
-    color: orangered;
-    margin-right: 20px;
-    cursor: pointer;
-    display: flex; }
-  #checked {
-    display: none; }
-  #check:checked ~ .nav__bresponsive {
-    height: 100vh; }
-    #check:checked ~ .nav__bresponsive li {
-      display: block; }
-  .nav__bresponsive {
-    height: 100px;
-    width: 100%;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: 0vh;
-    top: 100px;
-    background: rgba(248, 244, 0, 0.95);
-    text-align: center;
-    transition: all 0.5; }
-    .nav__bresponsive li {
-      display: none;
-      line-height: 30px;
-      margin: 50px 0;
-      transition: all 0.5; }
-      .nav__bresponsive li a {
-        color: orangered;
-        font-size: 16px;
-        text-transform: uppercase;
-        font-weight: 600; }
-  header {
-    top: 0; } }
-
-@media only screen and (max-width: 664px) {
-  .carrusel__item__flechas {
-    top: -220px; }
-  #carrusel__item-3 {
-    background-size: 117%; }
-  header {
-    top: 0; } }
-
-@media only screen and (max-width: 555px) {
-  .conteiner__index1 {
-    margin-top: -150px; } }
-
-@media only screen and (max-width: 425px) {
-  .carrusel__item__flechas {
-    top: -250px; }
-  #carrusel__item-3 {
-    background-size: 117%; }
-  .conteiner__index1 {
-    margin-top: -250px; }
-  header {
-    top: 0; } }
-
-@media only screen and (max-width: 375px) {
-  .conteiner__index1 {
-    margin-top: -250px; }
-  .carrusel__item__flechas {
-    top: -250px; }
-  #carrusel__item-3 {
-    background-size: 117%; }
-  header {
-    top: 0; } }
-
-@media only screen and (max-width: 320px) {
-  .carrusel {
-    height: 200px; }
-  .carrusel__item__flechas {
-    top: -270px; }
-  #carrusel__item-3 {
-    background-size: 117%; }
-  .conteiner__index1 {
-    margin-top: 0; }
-  header {
-    top: 0; } }
