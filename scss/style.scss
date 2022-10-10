@@ -167,16 +167,15 @@ footer {
 
 
 @media (min-width: 1000px){
-	.card-group>.card {
-    flex: 1 0 0%;
-    margin-bottom: 0;
-}
-	.card-group {
+	.tarjeta {
 		display: flex;
 		flex-flow: row wrap;	
-}
-
-	.catalogo{
-		top:-48px;
 	}
-}
+	}
+
+	@media (max-width: 1000px){
+		.catalogo{
+			top: -48px;
+			
+		}	
+		}
