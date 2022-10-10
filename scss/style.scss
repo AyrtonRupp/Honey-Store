@@ -171,6 +171,10 @@ footer {
     flex: 1 0 0%;
     margin-bottom: 0;
 }
+	.card-group {
+		display: flex;
+		flex-flow: row wrap;	
+}
 
 	.catalogo{
 		top:-48px;
