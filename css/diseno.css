@@ -135,3 +135,6 @@ footer {
 @media (min-width: 700px) {
   body {
     padding: 0 0em; } }
+
+.navbar {
+  top: -48px; }
