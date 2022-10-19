@@ -1,7 +1,3 @@
-/* carrusel */
-/* cards index */
-/* Cards de ventas */
-/*menu responsive*/
 * {
   margin: 0;
   padding: 0; }
@@ -46,20 +42,20 @@ footer {
     max-width: 350px;
     margin-top: 20px;
     font-weight: 500;
-    color: orangered;
-    font-family: 'DynaPuff', cursive;
+    color: black;
+    font-family: 'Roboto', cursive;
     font-size: auto;
     font-weight: bold; }
   .box__footer h4 {
     margin-bottom: 30px;
-    color: orangered;
-    font-family: 'DynaPuff', cursive;
+    color: black;
+    font-family: 'Roboto', cursive;
     font-size: auto;
     font-weight: bold; }
   .box__footer a {
     margin-top: 10px;
-    color: orangered;
-    font-family: 'DynaPuff', cursive;
+    color: black;
+    font-family: 'Roboto', cursive;
     font-size: auto;
     text-decoration: none; }
     .box__footer a:hover {
@@ -74,8 +70,8 @@ footer {
   padding: 0px 40px; }
   .box__copyright p {
     margin-top: 20px;
-    color: orangered;
-    font-family: 'DynaPuff', cursive;
+    color: black;
+    font-family: 'Roboto', cursive;
     font-size: auto; }
 
 .menu__index {
