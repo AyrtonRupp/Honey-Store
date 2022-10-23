@@ -200,3 +200,7 @@ footer {
     opacity: 0.6; }
   100% {
     opacity: 1; } }
+
+.card-footer-precio {
+  background-color: #f0d01c;
+  text-align: center; }
